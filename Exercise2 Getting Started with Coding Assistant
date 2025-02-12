@@ -1,0 +1,47 @@
+Getting Started with Coding Assistant
+This tutorial will introduce you to Pulse Width Modulation (PWM) and how it is used to generate an analog output. At the end of the tutorial, you will complete an assignment involving LED blinking and brightness control using PWM.
+
+What is PWM (Pulse Width Modulation)?
+Pulse Width Modulation (PWM) is a technique used to control the amount of power delivered to an electrical device. It does this by rapidly switching a signal between ON and OFF states, varying the width of the "ON" pulse while keeping the frequency constant. The average voltage is determined by the duty cycle (the percentage of time the signal is ON during each cycle).
+How PWM Provides an Analog Output
+While digital devices can only output HIGH (1) or LOW (0) signals, PWM enables them to simulate an analog output by adjusting the duty cycle. For example, a 50% duty cycle means the signal is HIGH for half the time and LOW for the other half, effectively outputting a voltage that is half of the maximum.
+Common applications of PWM include:
+  •	Motor speed control
+  •	LED brightness adjustment
+  •	Signal generation
+
+Assignment: PWM and LED Control
+Each student will perform tasks based on a specific blinking frequency assigned according to the first letter of their surname.
+Assigned Frequencies Table
+    Surname       Range	Frequency
+  **************************************
+   A - G	        1 Hz
+   H - N	        2 Hz
+   O - S	        3 Hz
+   T - Z	        4 Hz
+Tasks
+****************************************
+1.	Blink the Red LED at the assigned frequency.
+2.	Blink the Green LED at the assigned frequency.
+3.	Alternate the Red and Green LEDs so only one is on at a time at the assigned frequency.
+4.	Use PWM to dim the Green LED to match the brightness of the Red LED.
+
+Steps to Follow
+**************************************
+For each task:
+•	List the inputs, outputs, and desired logic.
+•	Create a flowchart using draw.io to visually represent the logic.
+•	Modify the Blink Example Code in Energia to achieve the task.
+•	You may use AI Coding Assistants (ChatGPT, Copilot, etc.) to debug and optimize your code.
+
+Submission Guidelines
+*************************************
+•	Place the work for all the tasks in one PDF submission.
+•	For each Task I expect the following:
+    Inputs, Outputs, Logic
+    Flowchart to represent the desired logic
+    Modified code to complete task Completed Code
+    Write a brief explanation of how you solved each task.
+
+By following this tutorial, you will gain hands-on experience using PWM and coding assistants to solve microcontroller problems. 🚀 Happy coding!
+
